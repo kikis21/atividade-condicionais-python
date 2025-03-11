@@ -1,0 +1,13 @@
+import os
+os.system("cls")
+
+print(" SEU SALARIO ")
+print("================")
+
+input("Seu nome: ")
+float(input("salario por hora: "))
+
+salario_h = float(input("salario por hora: "))
+trabalho_semana = int(input("quantidade de trabalho por semana: "))
+
+soma = salario_h * 6 * trabalho_semana * 4
